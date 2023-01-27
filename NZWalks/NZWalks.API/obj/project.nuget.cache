@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "1rdndZLi6JKbawYOjyMOn41/GjDHj8wwzH40Q0rCt4SJKFP1W3IFDXwb1olgzCm0DoCzut+sy+/QLCkVF/1+VQ==",
+  "dgSpecHash": "7RxqFgd+kzgdo0wuc7+fqQ1xkQNUd1ghvk8kGnXF1tZcV/Theuv1CbzpiQEzK1ZXzuz2nCsI9E/H78kX0qetBg==",
   "success": true,
   "projectFilePath": "C:\\Users\\dev.perera.LIFECYCLE\\source\\udemy\\code\\NZWalks\\NZWalks\\NZWalks.API\\NZWalks.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\dev.perera.LIFECYCLE\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\dev.perera.LIFECYCLE\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\dev.perera.LIFECYCLE\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\dev.perera.LIFECYCLE\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\dev.perera.LIFECYCLE\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\dev.perera.LIFECYCLE\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\dev.perera.LIFECYCLE\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\dev.perera.LIFECYCLE\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",
     "C:\\Users\\dev.perera.LIFECYCLE\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.0.1\\microsoft.data.sqlclient.sni.runtime.5.0.1.nupkg.sha512",
     "C:\\Users\\dev.perera.LIFECYCLE\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.2\\microsoft.entityframeworkcore.7.0.2.nupkg.sha512",

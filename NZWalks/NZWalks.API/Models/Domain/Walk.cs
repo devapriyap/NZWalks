@@ -1,9 +1,9 @@
-﻿namespace NZWalks.API.Domain.Models
+﻿namespace NZWalks.API.Models.Domain
 {
     public class Walk
     {
         public int Id { get; set; }
-        public string Name { get; set; }
+        public string Name { get; set; } 
         public double  Length { get; set; }        
         public int RegionId { get; set; }
         public int WalkDifficultyId { get; set; }

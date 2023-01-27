@@ -22,3 +22,20 @@ DB Migration
 Goto Package manager console and type
 
 Add-Migration InitialMigration
+
+To Update database 
+------------------
+
+Update-database
+
+
+Update git
+----------
+
+In VS go to view and then select "Git Changes"
+In the right section click on "+" to stage all amendments
+In the dropdown liast select "Commit and Push"
+Enter a message and then click on up arrow to push to remote git.
+
+
+
