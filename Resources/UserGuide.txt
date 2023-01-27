@@ -1,0 +1,24 @@
+
+Add DbContext and DB Connection string in Programs.cs
+-----------------------------------------------------
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+//*** Injecting DbContext and connection string
+//Begin
+
+builder.Services.AddDbContext<NZWalksDbContext> (options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+}) ;
+
+
+//End
+
+DB Migration
+------------
+
+Goto Package manager console and type
+
+Add-Migration InitialMigration
