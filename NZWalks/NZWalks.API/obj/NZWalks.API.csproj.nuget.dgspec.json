@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dev.perera.LIFECYCLE\\source\\udemy\\code\\NZWalks\\NZWalks\\NZWalks.API\\NZWalks.API.csproj": {}
+    "D:\\Websites\\NZWalks\\NZWalks\\NZWalks.API\\NZWalks.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dev.perera.LIFECYCLE\\source\\udemy\\code\\NZWalks\\NZWalks\\NZWalks.API\\NZWalks.API.csproj": {
+    "D:\\Websites\\NZWalks\\NZWalks\\NZWalks.API\\NZWalks.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dev.perera.LIFECYCLE\\source\\udemy\\code\\NZWalks\\NZWalks\\NZWalks.API\\NZWalks.API.csproj",
+        "projectUniqueName": "D:\\Websites\\NZWalks\\NZWalks\\NZWalks.API\\NZWalks.API.csproj",
         "projectName": "NZWalks.API",
-        "projectPath": "C:\\Users\\dev.perera.LIFECYCLE\\source\\udemy\\code\\NZWalks\\NZWalks\\NZWalks.API\\NZWalks.API.csproj",
-        "packagesPath": "C:\\Users\\dev.perera.LIFECYCLE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dev.perera.LIFECYCLE\\source\\udemy\\code\\NZWalks\\NZWalks\\NZWalks.API\\obj\\",
+        "projectPath": "D:\\Websites\\NZWalks\\NZWalks\\NZWalks.API\\NZWalks.API.csproj",
+        "packagesPath": "C:\\Users\\devap\\.nuget\\packages\\",
+        "outputPath": "D:\\Websites\\NZWalks\\NZWalks\\NZWalks.API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\dev.perera.LIFECYCLE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\devap\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -72,7 +69,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -84,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.308\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

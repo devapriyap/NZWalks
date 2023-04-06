@@ -1,7 +1,58 @@
+Modification Pattern:
+IRepo > Repo > Program.cs to Add Service injection > Profile > DTO > Controller > 
+
+SECTION 2
+
+10. Install GIT and Create New GIT Repository
+11. Create New ASP.NET Web API
+12. Pushing New API to GIT
+17. Creating Domain Models In Our ASP.NET Web API :
+
+Models > Domain folder
+
+18. Install Entity Framework Core Nuget Packages:
+
+Microsoft.Entityframeworkcore.SqlServer
+Microsoft.Entityframeworkcore.Tools
+
+19. Create DBContext:
+
+Inside the Data folder create a class call "NZWalksDbContext"
+
+using Microsoft.EntityFrameworkCore;
+using NZWalks.API.Models.Domain;
+
+namespace NZWalks.API.Data
+{
+    public class NZWalksDbContext : DbContext
+    {
+        public NZWalksDbContext(DbContextOptions<NZWalksDbContext> options) : base(options)
+        {
+
+        }
+
+        public DbSet<Region> Regions { get; set; }
+        public DbSet<Walk> Walks { get; set; }
+        public DbSet<WalkDifficulty> WalkDifficulty { get; set; }
+
+    }
+}
+
+Create Connection String To Database:
+
+// In appsettings.jason......
+ "AllowedHosts": "*",
+  "ConnectionStrings": {
+    //"DefaultConnection": "Server=LCS-DEVPERERA\\SQLEXPRESS; Database=NZWalksDB; Trusted_Connection=True; TrustServerCertificate=True;"
+    "DefaultConnection": "Server=DEVPERERA\\SQLEXPRESS; Database=NZWalksDB; Trusted_Connection=True; TrustServerCertificate=True;"
+  }
+
+
+Injecting DbContext Class:
 
 Add DbContext and DB Connection string in Programs.cs
 -----------------------------------------------------
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -16,6 +67,10 @@ builder.Services.AddDbContext<NZWalksDbContext> (options =>
 
 //End
 
+
+
+Running EF Core Migrations:
+
 DB Migration
 ------------
 
@@ -29,14 +84,40 @@ To Update database
 Update-database
 
 
-Update git
-----------
+Seeding Data Into Database:
+Goto SSMS and run the NZWalksDbSeed.sql 
+
+25. Saving Our Changes To GIT:
 
 In VS go to view and then select "Git Changes"
 In the right section click on "+" to stage all amendments
 In the dropdown liast select "Commit all and Push"
 Enter a message and then click on up arrow to push to remote git.
 
+SECTION 3
+
+27. Create Regions Controller
+
+28. Testing Get All Regions Method
+
+29. Understanding The Repository Pattern
+
+30. Create Region Repository
+
+31. Test API in Swagger
+
+32. Adding DTOs or Contracts
+
+33. Install and Use Automapper
+
+Automapper
+Automapper.Extensions.Microsoft.DependencyInjection
+
+34. Understand Synchronous vs ASynchronous Code
+
+35. Making Our Code Asynchronous
+
+36. Saving Our Changes To GIT
 
 TODo 41
 

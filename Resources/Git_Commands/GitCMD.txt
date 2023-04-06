@@ -1,0 +1,20 @@
+First download git from https://git-scm.com/download/win.
+and then run following commands in widows prompt to create the user account in your local machine.
+
+c:> git config --global git.name "devperera"
+c:> git config --global git.email "dev_perera@yahoo.ca"
+
+Then goto the place where you want to clone the code
+
+prompt:> d:
+d:> cd websites
+d:> git clone https://github.com/devapriyap/NZWalks.git
+
+First time git commit in local drive
+d:\Websites\NZWalks>git add.
+d:\Websites\NZWalks>git commit -m "Intial Files"
+
+Push to github.com
+d:\Websites\NZWalks>git push
+
+
