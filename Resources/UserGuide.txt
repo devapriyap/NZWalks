@@ -91,7 +91,7 @@ Goto SSMS and run the NZWalksDbSeed.sql
 
 In VS go to view and then select "Git Changes"
 In the right section click on "+" to stage all amendments
-In the dropdown liast select "Commit all and Push"
+In the dropdown list select "Commit all and Push"
 Enter a message and then click on up arrow to push to remote git.
 
 SECTION 3

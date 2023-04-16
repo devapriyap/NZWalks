@@ -59,6 +59,7 @@ namespace NZWalks.API.Repositories
             // Move user inputs to existing region record
             existingRegion.Code = region.Code;
             existingRegion.Name = region.Name;
+            existingRegion.Area = region.Area;
             existingRegion.Lat = region.Lat;
             existingRegion.Long = region.Long;
             existingRegion.Population = region.Population;
