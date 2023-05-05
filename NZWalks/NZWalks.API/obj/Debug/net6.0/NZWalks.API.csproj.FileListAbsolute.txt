@@ -171,3 +171,4 @@ D:\Websites\NZWalks\NZWalks\NZWalks.API\obj\Debug\net6.0\refint\NZWalks.API.dll
 D:\Websites\NZWalks\NZWalks\NZWalks.API\obj\Debug\net6.0\NZWalks.API.pdb
 D:\Websites\NZWalks\NZWalks\NZWalks.API\obj\Debug\net6.0\NZWalks.API.genruntimeconfig.cache
 D:\Websites\NZWalks\NZWalks\NZWalks.API\obj\Debug\net6.0\ref\NZWalks.API.dll
+D:\Websites\NZWalks\NZWalks\NZWalks.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
@@ -9,7 +10,7 @@ using NZWalks.API.Repositories;
 namespace NZWalks.API.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
+    [ApiController]    
     public class RegionsController : ControllerBase
     {
         private readonly IRegionRepository regionRepository;
@@ -68,6 +69,7 @@ namespace NZWalks.API.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> AddRegionAsync(Models.DTO.AddRegionRequest addRegionRequest)
         {
             // Validate the request
@@ -110,6 +112,7 @@ namespace NZWalks.API.Controllers
 
         [HttpDelete]
         [Route("{id:int}")]
+        [Authorize]
         public async Task<IActionResult> DeleteRegionByIdAsync(int id)
         {
             // Get region from database
@@ -131,6 +134,7 @@ namespace NZWalks.API.Controllers
 
         [HttpPut]
         [Route("{id:int}")]
+        [Authorize]
         public async Task<IActionResult> UpdateRegionAsync([FromRoute] int id, [FromBody] Models.DTO.UpdateRegionRequest updateRegionRequest)
         {
             // Validate the request
